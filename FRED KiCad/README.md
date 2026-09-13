@@ -1,4 +1,4 @@
-# FRED, KiCad Project
+# FRED Project: KiCad Section
 
 This repository contains the KiCad design files for FRED (Focus-Related Encephalographic Device), a custom EEG acquisition board developed for an electronic engineering course project.
 
