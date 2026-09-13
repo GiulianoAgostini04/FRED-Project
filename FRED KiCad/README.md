@@ -1,4 +1,4 @@
-# FRED — Focus-Related Encephalographic Device
+# FRED: Focus-Related Encephalographic Device
 
 Real-time EEG acquisition and classification system for monitoring concentration state, based on alpha/beta band power analysis of frontal-lobe signals.
 
