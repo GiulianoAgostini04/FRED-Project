@@ -1,4 +1,4 @@
-# FRED, TinkerCAD Prototype
+# FRED: TinkerCAD Prototype
 
 This repository contains the TinkerCAD prototype used to validate the FRED (Focus-Related Encephalographic Device) analog EEG acquisition chain before moving to the custom PCB design.
 
@@ -54,7 +54,7 @@ TinkerCAD/
 | Capacitors, various values | 11 | See CSV for full list with reference designators |
 
 The complete list with reference designators and exact values is in `FRED_Circuit_Prototype_Components.csv`.
-
+https://www.tinkercad.com/things/7vpgewQdkgf-fred-project-tinkercad-prototype?sharecode=xSgztrpAMZcsTz5ceLgSdRwczz_olruaQzaf4oagjvc
 ---
 
 ## Notes
