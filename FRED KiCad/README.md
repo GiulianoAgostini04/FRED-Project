@@ -76,7 +76,3 @@ Note: intermediate export files (`.cad`, `.cmp`, `.dsn`, `.emn`, `.emp`, `.hyp`,
 - [ ] Add mounting holes
 
 ---
-
-## Author
-
-Giuliano Agostini, Electronic Engineering
