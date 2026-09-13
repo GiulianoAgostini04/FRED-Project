@@ -54,10 +54,11 @@ TinkerCAD/
 | Capacitors, various values | 11 | See CSV for full list with reference designators |
 
 The complete list with reference designators and exact values is in `FRED_Circuit_Prototype_Components.csv`.
-https://www.tinkercad.com/things/7vpgewQdkgf-fred-project-tinkercad-prototype?sharecode=xSgztrpAMZcsTz5ceLgSdRwczz_olruaQzaf4oagjvc
+
 ---
 
 ## Notes
 
 - This prototype was used to validate the analog signal path before finalizing the PCB schematic, in particular for the Twin-T notch stage and the isolation amplifier, which TinkerCAD's simulator does not always model accurately.
 - Component values here reflect an earlier iteration of the design and may not match the final PCB values one to one.
+- Tinkercad link: https://www.tinkercad.com/things/7vpgewQdkgf-fred-project-tinkercad-prototype?sharecode=xSgztrpAMZcsTz5ceLgSdRwczz_olruaQzaf4oagjvc
