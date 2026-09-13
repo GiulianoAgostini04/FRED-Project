@@ -1,4 +1,4 @@
-# FRED. VHDL Modules
+# FRED: VHDL Modules
 
 This repository contains the VHDL modules developed as a digital twin of part of the FRED (Focus-Related Encephalographic Device) logic: the channel-selection block and the focus/not-focus classification finite-state machine, together with their testbenches.
 
