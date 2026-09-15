@@ -1,4 +1,4 @@
-# FRED — Focus-Related Electroencephalographic Device
+# FRED: Arduino Section
 
 Firmware Arduino per l'analisi in tempo reale della potenza spettrale EEG per banda (delta, theta, alpha, beta, gamma) e la stima dello stato di **focus/non-focus**, con visualizzazione su display LCD 16x2.
 
