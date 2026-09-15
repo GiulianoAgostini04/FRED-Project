@@ -1,10 +1,4 @@
-# FRED: VHDL Modules
-
-This repository contains the VHDL modules developed as a digital twin of part of the FRED (Focus-Related Encephalographic Device) logic: the channel-selection block and the focus/not-focus classification finite-state machine, together with their testbenches.
-
-These modules are developed for educational purposes, to model in VHDL the same logic implemented in hardware on the PCB and, at a higher level, the classification performed on the acquired EEG bands. They are not necessarily meant to be synthesized on a physical FPGA.
-
----
+# FRED: VHDL Section
 
 ## Modules
 
@@ -43,22 +37,6 @@ Both modules are complete and verified in GTKWave against their testbenches.
 - `focus_comparator`: verified including reset behavior, transition above the focus threshold, transition below the not-focus threshold, and correct state holding inside the dead zone
 
 Next step: development of `alpha_beta_comparator`, the core module that will classify the concentration state directly from the alpha/beta band power values.
-
----
-
-## Repository structure
-
-```
-VHDL/
-├── src/
-│   ├── channel_selector.vhd
-│   └── focus_comparator.vhd
-└── sim/
-    ├── channel_selector_tb.vhd
-    └── focus_comparator_tb.vhd
-```
-
----
 
 ## Tools used
 
