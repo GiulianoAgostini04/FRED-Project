@@ -1,10 +1,6 @@
-# FRED: TinkerCAD Prototype
-
-This repository contains the TinkerCAD prototype used to validate the FRED (Focus-Related Encephalographic Device) analog EEG acquisition chain before moving to the custom PCB design.
+# FRED: TinkerCAD Section
 
 The circuit reproduces the full analog front-end on breadboards, together with the digital channel-selection block, and connects to an Arduino Uno driving an LCD 16x2 display.
-
----
 
 ## Circuit overview
 
@@ -19,19 +15,6 @@ The prototype implements, stage by stage:
 - A final output amplification stage before the Arduino input
 - A digital channel-selection block built from a dual D flip-flop, an inverter array, and a quad AND gate, with status LEDs
 - An Arduino Uno R3 reading the processed signal and driving an LCD 16x2 display
-
----
-
-## Repository structure
-
-```
-TinkerCAD/
-├── FRED_Circuit_Prototype.pdf              # schematic export, 4 sheets (INA/HPF/Amplif, digital block, isolation/BPF, output stage + Arduino/LCD)
-├── FRED_Circuit_Prototype.png              # breadboard wiring view
-└── FRED_Circuit_Prototype_Components.csv   # full bill of materials with reference designators
-```
-
----
 
 ## Bill of materials (summary)
 
@@ -54,11 +37,4 @@ TinkerCAD/
 | Capacitors, various values | 11 | See CSV for full list with reference designators |
 
 The complete list with reference designators and exact values is in `FRED_Circuit_Prototype_Components.csv`.
-
----
-
-## Notes
-
-- This prototype was used to validate the analog signal path before finalizing the PCB schematic, in particular for the Twin-T notch stage and the isolation amplifier, which TinkerCAD's simulator does not always model accurately.
-- Component values here reflect an earlier iteration of the design and may not match the final PCB values one to one.
-- Tinkercad link: https://www.tinkercad.com/things/7vpgewQdkgf-fred-project-tinkercad-prototype?sharecode=xSgztrpAMZcsTz5ceLgSdRwczz_olruaQzaf4oagjvc
+Tinkercad link: https://www.tinkercad.com/things/7vpgewQdkgf-fred-project-tinkercad-prototype?sharecode=xSgztrpAMZcsTz5ceLgSdRwczz_olruaQzaf4oagjvc
